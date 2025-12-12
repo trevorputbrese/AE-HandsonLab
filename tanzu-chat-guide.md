@@ -55,6 +55,13 @@ cf login -a https://appsmanager-url -u youruser -p yourpassword
 # select your space
 
 ```bash
+# run few cf commands to check the env. cf apps list all the apps
+cf apps
+# cf services, list all the services like postgress
+cf services
+# cf routes, list all the routes(urls)
+cf routes
+# now we are ready to push chat app. Make sure you are in the right folder where you have downloaded chat client jar file and manifest.yml file.
 cf push
 ```
 
