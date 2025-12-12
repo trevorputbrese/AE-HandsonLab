@@ -57,7 +57,11 @@ requested state: started
 routes:          ai-tool-chat.apps.your-cf-domain.com
 ```
 
-Open the provided URL in your browser to see your chat application.
+Open the provided URL in your browser to see your chat application. Run the below command to get the url of your application
+
+```bash
+cf routes
+```
 
 ## Understanding the Basic Chat Interface
 
