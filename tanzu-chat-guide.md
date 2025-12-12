@@ -47,6 +47,7 @@ Change the name of the application in the manifest.yml. Append your initials and
 ```bash
 # Login using CF login
 cf login -a https://api.sys.tas-ndc.kuhn-labs.com -u youruser -p yourpassword
+```
 ![Login](./assets/login-1.png)
 
 # select 1. ae-workshop
@@ -54,6 +55,7 @@ cf login -a https://api.sys.tas-ndc.kuhn-labs.com -u youruser -p yourpassword
 # select your space
 ![Login](./assets/login-4.png)
 
+```bash
 cf push
 ```
 
