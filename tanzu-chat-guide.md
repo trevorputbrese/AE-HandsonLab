@@ -205,14 +205,14 @@ While LLMs are great at generating text, they can't naturally interact with exte
 First, let's see what happens without MCP:
 
 1. Click "Clear Files" in the Documents panel to remove distractions
-2. Ask the chat: "What time is it?"
+2. Ask the chat: "What is the latest bitcoin price?"
 3. The AI will explain it cannot access real-time information
 
-Now let's give it the ability to tell time!
+Now let's give it the ability to tell bitcoin price!
 
 ### Step 9: Bind to a Bitcoin MCP Server
 
-MCP servers are lightweight applications that expose specific tools to AI models. Let's deploy one and connect it using the SSE protocol:
+MCP servers are lightweight applications that expose specific tools to AI models. There's a bitcoin MCP server already deployed in your space. Let's bind your chat application to it. Then ask the same question about bitcoin price.
 
 ```bash
 cf bind-service ai-tool-chat-yourinitials bitcoin-mcp-server
