@@ -45,15 +45,14 @@ Change the name of the application in the manifest.yml. Append your initials and
 - name: ai-tool-chat-yourinitials
 
 ```bash
-# Login using CF login
-cf login -a https://api.sys.tas-ndc.kuhn-labs.com -u youruser -p yourpassword
+# Login using CF login. User apps manager url. You can find it in env spreadsheet
+cf login -a https://appsmanager-url -u youruser -p yourpassword
 ```
-![Login](./assets/login-1.png)
+![Login](./assets/login.png)
 
 # select 1. ae-workshop
-![Login](./assets/login-3.png)
+![Login](./assets/login-2.png)
 # select your space
-![Login](./assets/login-4.png)
 
 ```bash
 cf push
