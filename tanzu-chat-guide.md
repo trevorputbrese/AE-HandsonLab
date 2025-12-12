@@ -38,6 +38,8 @@ cd ~/AE-Lab
 curl -L -o ./cf-mcp-client-2.4.0.jar https://github.com/cpage-pivotal/cf-mcp-client/releases/download/v2.4.0/cf-mcp-client-2.4.0.jar
 
 curl -L -o ./manifest.yml https://github.com/cpage-pivotal/cf-mcp-client/releases/download/v2.3.1/manifest.yml
+
+cd ~/AE-Lab
 ```
 Change the name of the application in the manifest.yml. Append your initials and then run cf push command from your terminal. 
 - name: ai-tool-chat-yourinitials
@@ -168,7 +170,7 @@ Now let's give your AI some documents to work with:
    - Vector Store: PgVectorStore ✅
    - Embed Model: text-embedding-3-small ✅
 3. Click "Upload File" and select a PDF document
-   - **Suggestion**: Use a technical document, user manual, or documentation PDF
+   - **Suggestion**: Use a technical document, user manual, or documentation PDF. You can also find spring health assessment pdf in our Lab's git repo.
    - The file will be processed and indexed automatically
    - You'll see a progress bar during upload
 
