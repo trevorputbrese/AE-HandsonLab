@@ -28,6 +28,9 @@ Before starting this guide, ensure you have:
 
 ### Step 1: Deploy to Cloud Foundry
 
+If you haven't installed the `cf` CLI yet, click [here](install-cf-cli.md) for instructions.   If you have then let's get started. 
+
+
 Now let's deploy Chat clinet application to Cloud Foundry:
 You need to download the precompiled jar file and manifest.yml
 make a directory and cd into it and copy both files to this folder.
